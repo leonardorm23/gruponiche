@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body{
+    background-color:rgb(18, 19, 20);
+}
+
+.header {
+    background-color: rgb(209, 208, 207);
+    height: 70px;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+}
+
+.menu{
+    float: right;
+    margin: 24px;
+}
+
+.menu a{
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.banner{
+    background-image: url(../img/bannerniche.jpg);
+    height: 450px;
+    width: 1000px;
+    background-repeat: no-repeat;
+    margin: 100px;
+    }
+
+.banner h1{
+    text-align: right;
+    font-size: 120px;
+    padding: 0px 100px 0px 0px; 
+    color: white;
+    
+}
+
+.biografia{
+    background-color: black;
+    color: white;
+    padding: 20px 100px 70px 100px;
+    text-align: center;
+    text-align: justify;
+}
+
+.biografia h2{
+    text-align: center;
+}
+
+p{
+    margin-top: 6px;
+}
+
+.fotogrupo{
+    padding: 10px 350px 10px 450px
+}
+
+#fotoniche{
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 100px 70px 100px;
+}
